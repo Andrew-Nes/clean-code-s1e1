@@ -18,9 +18,11 @@
 }
 
 @media (max-width:768px) {
+
   .matrix-info { 
     text-align: center;
   }
+
 }
 .tasksheet {
   display: block;
@@ -30,7 +32,6 @@
 .task__input[type="text"] {
   width: 56%;
 }
-
 .task {
   display: flex;
 }
@@ -56,6 +57,7 @@ input,button{
 .task__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section-header {
   color: #333;
@@ -99,7 +101,6 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
-
 .task__input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -131,12 +132,10 @@ input,button{
 .task__input[type="text"] {
   display:none
 }
-
 .task.edit-mode .task__input[type="text"] {
   display:inline-block;
   width:224px
 }
-
 .task.edit-mode .task__label {
   display:none;
 }
